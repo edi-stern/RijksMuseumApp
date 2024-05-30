@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - MuseumData
-public struct MuseumData: Codable {
+public struct MuseumData: Decodable {
 	public let artObjects: [ArtObject]
 }
 

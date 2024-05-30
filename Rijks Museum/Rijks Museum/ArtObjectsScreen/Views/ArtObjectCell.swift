@@ -20,7 +20,7 @@ class ArtObjectCell: UICollectionViewCell {
 	
 	private lazy var imageView: UIImageView = {
 		let imageView = UIImageView()
-		imageView.contentMode = .scaleAspectFit
+		imageView.contentMode = .scaleAspectFill
 		imageView.clipsToBounds = true
 		return imageView
 	}()
@@ -39,7 +39,12 @@ class ArtObjectCell: UICollectionViewCell {
 	}
 	
 	private func setupViews() {
-		let stackView = UIStackView(arrangedSubviews: [imageView, titleLabel])
+		let stackView = UIStackView(
+			arrangedSubviews: [
+				imageView,
+				titleLabel
+			]
+		)
 		stackView.axis = .vertical
 		stackView.spacing = 8
 		
@@ -71,7 +76,6 @@ class ArtObjectCell: UICollectionViewCell {
 			placeholder: UIImage(named: "placeholder"),
 			options: [
 				.processor(DownsamplingImageProcessor(size: imageView.frame.size)),
-				.scaleFactor(UIScreen.main.scale),
 				.cacheOriginalImage
 			])
 	}

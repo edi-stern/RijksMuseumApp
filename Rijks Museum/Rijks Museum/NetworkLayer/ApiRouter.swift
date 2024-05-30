@@ -10,7 +10,7 @@ import Foundation
 enum ApiRouter {
 	//The endpoint name we'll call later
 	case getArtObjects(page: Int)
-
+	
 	//MARK: - HttpMethod
 	var method: String {
 		switch self {
@@ -18,7 +18,7 @@ enum ApiRouter {
 			return "GET"
 		}
 	}
-
+	
 	//MARK: - Path
 	var path: String {
 		switch self {
@@ -26,7 +26,7 @@ enum ApiRouter {
 			return "/api/en/collection"
 		}
 	}
-
+	
 	//MARK: - Parameters
 	var parameters: [String: String] {
 		switch self {
@@ -41,7 +41,11 @@ enum ApiRouter {
 			]
 		}
 	}
+}
 
+// MARK: Return URLRequest
+
+extension ApiRouter {
 	func asURLRequest() throws -> URLRequest {
 		guard var urlComponents = URLComponents(string: Constants.baseUrl) else {
 			throw ApiError.notFound

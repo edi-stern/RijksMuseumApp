@@ -39,6 +39,8 @@ class ArtObjectsViewModel: ObservableObject {
 			.store(in: &cancellables)
 	}
 	
+	// MARK: CollectionView Helpers
+	
 	func artObject(at indexPath: IndexPath) -> ArtObject? {
 		guard indexPath.section < sectionedArtObjects.count else {
 			return nil // Section index out of bounds

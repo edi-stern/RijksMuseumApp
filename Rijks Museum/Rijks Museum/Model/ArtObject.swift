@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - ArtObject
-public struct ArtObject: Codable {
+public struct ArtObject: Decodable {
 	public let links: Links
 	public let id: String
 	public let title: String
@@ -19,7 +19,7 @@ public struct ArtObject: Codable {
 }
 
 // MARK: - Links
-public struct Links: Codable {
+public struct Links: Decodable {
 	public let selfLink: String
 	public let web: String
 	
@@ -30,7 +30,7 @@ public struct Links: Codable {
 }
 
 // MARK: - Image
-public struct Image: Codable {
+public struct Image: Decodable {
 	public let url: String
 }
 
