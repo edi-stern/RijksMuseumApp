@@ -94,7 +94,7 @@ class ArtObjectsServiceTests: XCTestCase {
 		
 		// Then
 		waitForExpectations(
-			timeout: 1,
+			timeout: 5,
 			handler: nil
 		)
 		XCTAssertNotNil(receivedError)

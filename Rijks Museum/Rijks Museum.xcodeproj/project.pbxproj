@@ -57,6 +57,7 @@
 		1E0431B42C08ED1100AA2661 /* ArtObjectsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsViewModelTests.swift; sourceTree = "<group>"; };
 		1E0431B62C08F01800AA2661 /* ArtObjectsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsServiceTests.swift; sourceTree = "<group>"; };
 		1E0431B82C08F09500AA2661 /* ArtObjectDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailViewModelTests.swift; sourceTree = "<group>"; };
+		1E0431BB2C0DDC7F00AA2661 /* Rijks MuseumTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Rijks MuseumTests.xctestplan"; sourceTree = SOURCE_ROOT; };
 		1EE61ED12C083F3E0047EF87 /* Rijks Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rijks Museum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE61ED42C083F3E0047EF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE61ED62C083F3E0047EF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +165,7 @@
 				1EE61EEB2C083F420047EF87 /* Rijks_MuseumTests.swift */,
 				1E0431B42C08ED1100AA2661 /* ArtObjectsViewModelTests.swift */,
 				1E0431B62C08F01800AA2661 /* ArtObjectsServiceTests.swift */,
+				1E0431BB2C0DDC7F00AA2661 /* Rijks MuseumTests.xctestplan */,
 				1E0431B82C08F09500AA2661 /* ArtObjectDetailViewModelTests.swift */,
 				1EE61EF42C083F420047EF87 /* Rijks MuseumUITests */,
 			);

@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "48D20593-2B95-47B5-8105-9D28079FDEAD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Rijks Museum.xcodeproj",
+        "identifier" : "1EE61EE62C083F420047EF87",
+        "name" : "Rijks MuseumTests"
+      }
+    }
+  ],
+  "version" : 1
+}
